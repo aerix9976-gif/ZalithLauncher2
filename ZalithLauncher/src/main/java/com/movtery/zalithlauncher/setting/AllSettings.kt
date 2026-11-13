@@ -383,8 +383,8 @@ object AllSettings : SettingsRegistry() {
      */
     val launcherColorTheme = enumSetting(
         "launcherColorTheme",
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) ColorThemeType.DYNAMIC
-        else ColorThemeType.EMBERMIRE
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) ColorThemeType.URBAN_ASH
+        else ColorThemeType.URBAN_ASH
     )
 
     /**
